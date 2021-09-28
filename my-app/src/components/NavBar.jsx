@@ -1,19 +1,20 @@
 import React from 'react';
+import navi from './NavBar.module.css';
 
 const NavBar = () => {
-    return <nav className = 'nav'>
+    return <nav className = {navi.nav}>
         <div>
-            <a href={'1'}>
+            <a className={navi.item} href={'https://www.youtube.com/watch?v=dQw4w9WgXcQ'}>
                 Abobus
             </a>
         </div>
         <div>
-            <a href = {'2'}>
+            <a className={navi.item} href = {'2'}>
                 Among us
             </a>
         </div>
         <div>
-            <a href={'3'}>
+            <a className={navi.item} href={'3'}>
                 Gladiator
             </a>
         </div>

@@ -5,5 +5,13 @@
 
 .content img {
     width: 700px;
-    height: 100px;
+    height: 150px;
+}
+
+.item {
+    color: blue;
+}
+
+.item.active {
+    color: yellow;
 }

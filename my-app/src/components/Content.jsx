@@ -1,17 +1,18 @@
 import React from 'react';
+import con from './Content.module.css';
 
 const Content = () => {
-    return <div className='content'>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjfRblyAYji90sgkl3VjZEXXmSdO-5t1vn_A&usqp=CAU"/>
+    return <div className={con.content}>
+        <img src="https://s4.anilist.co/file/anilistcdn/user/banner/b5364675-tKxHe0c9fHTJ.jpg"/>
         <div>
             ava
         </div>
         <div>
             my posts
-            <div>
+            <div className={`${con.item} ${con.active}`}>
                 new post
             </div>
-            <div>
+            <div className={con.item}>
                 <div>
                     post1
                 </div>
